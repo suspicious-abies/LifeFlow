@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy file="/Users/vishal-8865/Workspace/LifeFlow/target/LifeFlow.war" tofile="/Users/vishal-8865/Workspace/LifeFlow/build/apache-tomcat-9.0.108/webapps/LifeFlow.war" />
+  </target>
+</project>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/apache-tomcat-9.0.108/webapps/LifeFlow/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/build/apache-tomcat-9.0.108/webapps/LifeFlow/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

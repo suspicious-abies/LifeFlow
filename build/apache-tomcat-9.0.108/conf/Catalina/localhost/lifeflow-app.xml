@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="/Users/vishal-8865/Workspace/LifeFlow/build/apache-tomcat-9.0.108">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="/Users/vishal-8865/Workspace/LifeFlow/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="/Users/vishal-8865/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-java-8.0.28.jar"/>
+    <PostResources base="/Users/vishal-8865/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.11.4.jar"/>
+    <PostResources base="/Users/vishal-8865/Workspace/LifeFlow/build/apache-tomcat-9.0.108/webapps/LifeFlow/WEB-INF/lib/json-20240303.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/json-20240303.jar"/>
+    <PostResources base="/Users/vishal-8865/Workspace/LifeFlow/build/apache-tomcat-9.0.108/webapps/LifeFlow/WEB-INF/lib/protobuf-java-3.11.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.11.4.jar"/>
+    <PostResources base="/Users/vishal-8865/Workspace/LifeFlow/build/apache-tomcat-9.0.108/webapps/LifeFlow/WEB-INF/lib/mysql-connector-java-8.0.28.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-java-8.0.28.jar"/>
+  </Resources>
+</Context>
