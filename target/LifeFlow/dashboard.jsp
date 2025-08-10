@@ -60,9 +60,9 @@ try {
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body class="bg-gray-1000 font-sans">
+<body class="bg-gray-100 font-sans">
     <!-- Header -->
-    <header class="bg-white shadow-md">
+    <header class="bg-grey-100 shadow-md">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
         <div>
             <img src="images/LifeFlowIcon.jpg" alt="LifeFlow Logo" class="h-10 w-10 rounded-full mr-4 float-left">
