@@ -29,7 +29,7 @@ public class LoginServlet extends HttpServlet {
     private static final String DB_PASSWORD = "";
 
     // --- A secret key for hashing. In a real app, store this securely! ---
-    private static final String SECRET_KEY = "your_super_secret_key";
+    private static final String SECRET_KEY = "LifeFlow-8858-secretkey-2025";
 
     @Override
     public void init() throws ServletException {

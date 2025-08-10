@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Statement;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,6 +22,7 @@ public class MarkFulfilledServlet extends HttpServlet {
 
         String updateAppointmentSql = "UPDATE appointments SET status = 'Fulfilled' WHERE id = ?";
         String updateRequestSql = "UPDATE blood_requests SET units_required = units_required - 1 WHERE id = ?";
+        String updateClosed = "UPDATE blood_requests SET status = 'Closed' WHERE units_required = 0";
 
         Connection conn = null;
         try {
@@ -38,6 +40,8 @@ public class MarkFulfilledServlet extends HttpServlet {
                 pstmt2.setInt(1, requestId);
                 pstmt2.executeUpdate();
             }
+            Statement statement = conn.createStatement();
+            statement.executeUpdate(updateClosed);
 
             conn.commit(); // Commit the transaction if both updates are successful
             response.sendRedirect("dashboard.jsp");
