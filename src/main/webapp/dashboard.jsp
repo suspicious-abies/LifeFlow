@@ -70,7 +70,7 @@ try {
         </div>
             <div class="flex items-center">
                 <span class="text-gray-700 mr-4">Welcome, <%= fullName %>!</span>
-                <!-- *** ADDED: View All Requests Link *** -->
+                <!-- View All Requests Link -->
                 <a href="all_requests.jsp" class="text-sm text-blue-600 hover:underline mr-4">View All Requests</a>
                 <a href="edit_profile.jsp" class="text-sm text-blue-600 hover:underline mr-4">Edit Profile</a>
                 <a href="logout" class="px-4 py-2 text-white bg-red-600 rounded-full hover:bg-red-700 text-sm">Logout</a>
@@ -92,7 +92,7 @@ try {
                 <h2 class="text-xl text-gray-700 mb-2">Your Donations Fulfilled</h2>
                 <p class="text-4xl font-bold text-red-600"><%= totalDonations %></p>
             </div>
-            <!-- *** NEW CARD: Your Requests Fulfilled *** -->
+            <!-- Your Requests Fulfilled  -->
             <div class="bg-white p-6 rounded-lg shadow text-center">
                 <h2 class="text-xl text-gray-700 mb-2">Your Requests Fulfilled</h2>
                 <p class="text-4xl font-bold text-blue-600"><%= totalRequestsFulfilled %> <span class="text-2xl">units</span></p>
@@ -101,13 +101,13 @@ try {
 
         <!-- Actions Section -->
         <div class="grid md:grid-cols-2 gap-6 mb-8">
-            <!-- Request Blood Card -->
+            <!-- Request Blood section -->
             <div class="bg-white p-8 rounded-lg shadow">
                 <h2 class="text-2xl font-bold text-gray-800 mb-4">I Need Blood</h2>
                 <p class="text-gray-600 mb-6">Create a public request for blood that will be visible to potential donors.</p>
                 <button id="request-blood-btn" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700">Request Blood</button>
             </div>
-            <!-- Give Blood Card -->
+            <!-- Give Blood section -->
             <div class="bg-white p-8 rounded-lg shadow">
                 <h2 class="text-2xl font-bold text-gray-800 mb-4">I Want to Give Blood</h2>
                 <p class="text-gray-600 mb-6">View all available requests that match your blood type and save a life today.</p>
